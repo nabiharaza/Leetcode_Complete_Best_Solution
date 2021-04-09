@@ -13,7 +13,7 @@ def findMaxConsecutiveOnes(nums):
             temp_counter += 1
         else:
             if temp_counter > max_counter:
-                maxccccccc_counter = temp_counter
+                max_counter = temp_counter
             temp_counter = 0
     if temp_counter > max_counter:
         max_counter = temp_counter
